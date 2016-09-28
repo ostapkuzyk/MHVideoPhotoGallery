@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.summary      = 'Gallery for iOS 7 Devices.'
   s.platform     =  :ios
   s.source = {
-    :git => 'https://github.com/mariohahn/MHVideoPhotoGallery.git',
+    :git => 'https://github.com/ostapkuzyk/MHVideoPhotoGallery.git',
     :tag => 'v2.1.3'
   }
 
