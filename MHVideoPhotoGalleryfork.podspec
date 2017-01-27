@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'MHVideoPhotoGallery'
+  s.name         = 'MHVideoPhotoGalleryfork'
   s.version      = '2.1.3'
   s.license      = 'MIT'
   s.homepage     = 'https://github.com/mariohahn/MHVideoPhotoGallery'
@@ -10,10 +10,11 @@ Pod::Spec.new do |s|
   s.platform     =  :ios
   s.source = {
     :git => 'https://github.com/ostapkuzyk/MHVideoPhotoGallery.git',
-    :tag => 'v2.1.3'
+    # :tag => 'v2.1.3-pointer-fix'
+	:commit => 'a7a2e4cd2615e9aa85765035fe9443c17b4ecf49'
   }
 
-  s.dependency 'SDWebImage'
+  s.dependency 'SDWebImage', '3.8.2'
   s.dependency 'TTTAttributedLabel', '1.13.3'
   s.dependency 'Masonry'
 
