@@ -73,6 +73,14 @@
     
 }
 
+-(NSUInteger)supportedInterfaceOrientations{
+  return UIInterfaceOrientationMaskPortrait;
+}
+  
+-(BOOL)shouldAutorotate {
+  return NO;
+}
+  
 -(UIStatusBarStyle)preferredStatusBarStyle{
     return self.galleryViewController.preferredStatusBarStyleMH;
 }
